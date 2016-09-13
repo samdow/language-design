@@ -33,7 +33,7 @@ these are used a lot in web development. Web development tends to have a large U
 component, which causes some people to assume web development is "girlier," which they equate to
 strong creativity. On the other hand, C or C++ are seen as manly because it does not have the
 creative elements, and are often used to solve back-end problems, or find the "right" answer.
-In this way, C anc C++ programmers are considered objective in their search for the solution,
+In this way, C and C++ programmers are considered objective in their search for the solution,
 while web development and UI are seen as much more subjective. This gendered differentiation
 hurts everyone who does not conform to these stereotypes.
 
@@ -101,7 +101,7 @@ In what way is an API a language?
 The notion of "when in doubt, leave it out" is very linked to DSLs and languages in general 
 [Bloch, 2006]. In terms of DSLs, we discussed in class how DSLs should support the 
 bare minimum required to run the programs they want to run. Otherwise, they risk 
-becomming a general purpose language and losing the specificity of a DSL. Additionally, in 
+becoming a general purpose language and losing the specificity of a DSL. Additionally, in 
 English, students are taught to be concise and focus on one topic. Similarly, APIs
 need to leave out anything that takes focus away from its main purpose.
 
@@ -130,8 +130,8 @@ The Yang and Rabkin article talks mainly about general-purpose languages. In
 what ways do the themes apply to the study and creation of DSLs?
 
 **Response**
-DSLs develop their own heirarchy because of the wide range of uses for DSLs, in
-some ways even more pronounced than the heirarchy in general-purpose languages
+DSLs develop their own hierarchy because of the wide range of uses for DSLs, in
+some ways even more pronounced than the hierarchy in general-purpose languages
 discussed in Yang and Rabkin. Some DSLs are made for people who have limited or
 no programming experience. It's easy to stereotype these languages as easier and
 less of programming languages than some more intense DSLs that may require 
