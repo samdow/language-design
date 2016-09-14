@@ -16,16 +16,17 @@ are:
 For each quote, describe what it was about the quote that led you pick it.
 
 **Response**
-+ "These stereotypes come about because programmers confuse their strong views about 
-languages with their views about the users of the languages. Consider, for instance, 
-this anonymous Reddit comment: “Node.js is not popular because of its non-blocking features. 
-It is popular because now dumb javascript devs can write server code. Earlier they had to 
-learn real languages like Perl/Java/Python etc. to do that.
-Our commenter assumes that using JavaScript, as opposed to a “real” language, is a sign of 
-incapacity. But in technical terms, JavaScript, Perl, and Python are fairly similar (they are
-all interpreted, dynamically typed, multi-paradigm languages). The only difference is that 
-our commenter has ideas about who uses each language–and about the languages that “real 
-programmers” use" [Yang and Rabkin, 2015].
+> "These stereotypes come about because programmers confuse their strong views about 
+> languages with their views about the users of the languages. Consider, for instance, 
+> this anonymous Reddit comment: “Node.js is not popular because of its non-blocking features. 
+> It is popular because now dumb javascript devs can write server code. Earlier they had to 
+> learn real languages like Perl/Java/Python etc. to do that.
+> Our commenter assumes that using JavaScript, as opposed to a “real” language, is a sign of 
+> incapacity. But in technical terms, JavaScript, Perl, and Python are fairly similar (they are
+> all interpreted, dynamically typed, multi-paradigm languages). The only difference is that 
+> our commenter has ideas about who uses each language–and about the languages that “real 
+> programmers” use"
+[Yang and Rabkin, 2015].
 
 This is quite true to both of our experiences. People stereotype languages based on the users,
 for example, in the article, it is mentioned that Python and Ruby are considered "girly." Both of
@@ -37,11 +38,12 @@ In this way, C and C++ programmers are considered objective in their search for 
 while web development and UI are seen as much more subjective. This gendered differentiation
 hurts everyone who does not conform to these stereotypes.
 
-+ "PL/I has not grown much. It is, for the most part, just as it was when it first came
-out. It may be that this is just from lack of use. The flip side is that the lack of use may
-have two causes. Number one: PL/I was not designed to grow—it was designed to be all
-things to all who program right from the start. Number two: for its time, it started out
-large. No one knew all of PL/I; some said that no one could know all of PL/I" [Steele, 1998].
+> "PL/I has not grown much. It is, for the most part, just as it was when it first came
+> out. It may be that this is just from lack of use. The flip side is that the lack of use may
+> have two causes. Number one: PL/I was not designed to grow—it was designed to be all
+> things to all who program right from the start. Number two: for its time, it started out
+> large. No one knew all of PL/I; some said that no one could know all of PL/I"
+[Steele, 1998].
 
 This contrasts with the ideas that we discussed in class, specifically that languages cycle
 through developing into a DSL, then into a general purpose language, and then back and through
@@ -49,13 +51,14 @@ the cycle. PL/I was designed to not grow, which is a different philosophy from t
 languages. It would be interesting to discover what drove the design philosophy for PL/I because
 it is such a large, immutable language.
 
-+ "A language design can no longer be a thing. It must be a pattern—a pattern for growth—a 
-pattern for growing the pattern for defining the patterns that programmers can use for 
-their real work and their main goal" [Steele, 1998].
+> "A language design can no longer be a thing. It must be a pattern—a pattern for growth—a 
+> pattern for growing the pattern for defining the patterns that programmers can use for 
+> their real work and their main goal"
+[Steele, 1998].
 
 By thinking of language as a patter, Steele turns the focus from the programmer to the user.
 By understanding the pattern, users can expand the language, which Steele calls "a pattern for
-growth." At the very least, users feel like they are contributing to an ongoing project as
+growth." At the very least, users feel like they are contributing to an on going project as
 opposed to using the results of a finished projects. 
 
 ---
