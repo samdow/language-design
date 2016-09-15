@@ -28,12 +28,12 @@ For each quote, describe what it was about the quote that led you pick it.
 > programmers” use"
 [Yang and Rabkin, 2015].
 
-This is quite true to both of our experiences. People stereotype languages based on the users,
-for example, in the article, it is mentioned that Python and Ruby are considered "girly." Both of
-these are used a lot in web development. Web development tends to have a large UI and design
-component, which causes some people to assume web development is "girlier," which they equate to
-strong creativity. On the other hand, C or C++ are seen as manly because it does not have the
-creative elements, and are often used to solve back-end problems, or find the "right" answer.
+This quote is quite accurate in both of our experiences. People stereotype languages based on the users.
+For example the article mentions that Python and Ruby are considered "girly." Both of
+these languages are used a lot in web development, which tends to have a large UI and design
+component. This strong association with creativity, a steretypically feminine quality, means that the languages
+are stereotyped as "girly." On the other hand, C or C++ are seen as manly are often used to solve back-end 
+problems, or find the "right" answer, so they are seen as having less creativity.
 In this way, C and C++ programmers are considered objective in their search for the solution,
 while web development and UI are seen as much more subjective. This gendered differentiation
 hurts everyone who does not conform to these stereotypes.
@@ -45,11 +45,11 @@ hurts everyone who does not conform to these stereotypes.
 > large. No one knew all of PL/I; some said that no one could know all of PL/I"
 [Steele, 1998].
 
-This contrasts with the ideas that we discussed in class, specifically that languages cycle
+This quote contrasts with the ideas that we discussed in class, specifically that languages cycle
 through developing into a DSL, then into a general purpose language, and then back and through
 the cycle. PL/I was designed to not grow, which is a different philosophy from the other
-languages. It would be interesting to discover what drove the design philosophy for PL/I because
-it is such a large, immutable language.
+languages we have encountered. It would be interesting to discover what drove the design 
+philosophy for PL/I because it is such a large, immutable language.
 
 > "A language design can no longer be a thing. It must be a pattern—a pattern for growth—a 
 > pattern for growing the pattern for defining the patterns that programmers can use for 
@@ -60,7 +60,8 @@ By thinking of language as a pattern, Steele turns the focus from the programmer
 By understanding the pattern, users can expand the language, which Steele calls "a pattern for
 growth." At the very least, users feel like they are contributing to an ongoing project as
 opposed to using the results of a finished project. As a bonus, user feedback and suggestions 
-can facilitate a language's growth.
+can facilitate a language's growth. The difficulty for programmers is not being able to consider
+what they would like to see, but considering what a user of their language would like to see.
 
 ---
 **Question**
@@ -73,8 +74,8 @@ A well-designed language can grow into your project. If you have an idea, a well
 language will have a way to help you achieve that vision, while a 
 poorly-designed language forces you to significantly change your idea to adapt to what the
 language can accomplish. One thing we disagree on is whether a well-designed language must 
-always have a large, helpful community. Sam thinks that such a community can help languages 
-grow since they should please the users. But Tiffany thinks that a large community only 
+always have a large, helpful community. Sam thinks that a community focused on solving user problems
+can help languages grow since they should please the users. But Tiffany thinks that a large community only 
 reflects how widespread a language is. For example, JavaScript has a large community, but 
 many people claim it is poorly designed. 
 
@@ -101,7 +102,7 @@ it was easier to read and understand, even for a non-programmer. In doing this, 
 vocabulary because it was clearer how everything fit together. 
 
 Steele also mentions that users will use languages with "warts," though argues that they "will not
-put up with the warts for all time" [Steele, 1998, 6]. This is also relavent to our sound lab. When 
+put up with the warts for all time" [Steele, 1998]. This is also relavent to our "sound lab". When 
 we built a working vocabulary, we removed the "warts" that some of our users (specifically, 
 ourselves as potential users) complained about. When we chose to keep the sound as a sound object
 instead of continually writing it to the `out.wav` file, we did this because that was a complaint
@@ -121,9 +122,10 @@ In what way is an API a language?
 The notion of "when in doubt, leave it out" is very linked to DSLs and languages in general 
 [Bloch, 2006]. In terms of DSLs, we discussed in class how DSLs should support the 
 bare minimum required to run the programs they want to run. Otherwise, they risk 
-becoming a general purpose language and losing the specificity of a DSL. Additionally, in 
-English, students are taught to be concise and focus on one topic. Similarly, APIs
-need to leave out anything that takes focus away from its main purpose.
+becoming a general purpose language and losing the specificity of a DSL. Additionally, this 
+is true of languages in general. In English, students are taught to be concise and focus on one topic. 
+Similarly, the "when in doubt, leave it out" mentality means that APIs need to leave out 
+anything that takes focus away from its main purpose.
 
 ---
 
@@ -164,7 +166,7 @@ without extensive programming experience. This develops a hierarchy amongst DSLs
 where the languages that require more programming knowledge are considered objectively 
 better than those that are made for artists, web developers, and other less technical users.
 Instead of choosing the best language for a project, programmers may be attached
-to a DSL.
+to a DSL and use a suboptimal language because of pride instead of the project.
 
 Moreover, if DSLs are internal, they carry the stereotypes of their host language. 
 For instance, if people think Python is "for noobs" then the internal DSL in Python
