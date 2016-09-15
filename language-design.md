@@ -98,8 +98,17 @@ How do the themes of _Growing a Language_ relate to the "sound lab" we did this 
 Steele discusses the importance of programmers building "a working vocabulary" and a working grammar
 to go along with it. In the "sound lab" we did, we focused on restructuring the solution code so
 it was easier to read and understand, even for a non-programmer. In doing this, we built a working
-vocabulary because it was clearer how everything fit together.
+vocabulary because it was clearer how everything fit together. 
 
+Steele also mentions that users will use languages with "warts," though argues that they "will not
+put up with the warts for all time" [Steele, 1998, 6]. This is also relavent to our sound lab. When 
+we built a working vocabulary, we removed the "warts" that some of our users (specifically, 
+ourselves as potential users) complained about. When we chose to keep the sound as a sound object
+instead of continually writing it to the `out.wav` file, we did this because that was a complaint
+our class came up with. Instead of using a user base to find the problems with our language,
+we went through the code as a class and determined the problems with it. However, Steele's idea
+applies because our class knew that if this were an library used outside of Harvey Mudd, users
+would complain about all the same things we noticed in how someone uses the code.
 
 ---
  
@@ -227,7 +236,7 @@ Both of us talked about our ideas before writing each response. Sam typed up
 the responses, while Tiffany focused on the wording of responses and the big
 picture ideas we wanted to get across.
 
-Tiffany also proofreaded and added to some responses on her own.
+Separately, we both also proofreaded and added to some responses on our own.
 
 
 ---
