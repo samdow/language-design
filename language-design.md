@@ -56,10 +56,11 @@ it is such a large, immutable language.
 > their real work and their main goal"
 [Steele, 1998].
 
-By thinking of language as a patter, Steele turns the focus from the programmer to the user.
+By thinking of language as a pattern, Steele turns the focus from the programmer to the user.
 By understanding the pattern, users can expand the language, which Steele calls "a pattern for
-growth." At the very least, users feel like they are contributing to an on going project as
-opposed to using the results of a finished projects. 
+growth." At the very least, users feel like they are contributing to an ongoing project as
+opposed to using the results of a finished project. As a bonus, user feedback and suggestions 
+can facilitate a language's growth.
 
 ---
 **Question**
@@ -68,17 +69,24 @@ How would you know a well-designed language? What are the symptoms? How would
 you know a poorly designed language? What are the symptoms?
 
 **Response**
-A well-designed language can grow into your project. If you have an idea, a well
-designed language will have a way to help you achieve that vision, while a 
+A well-designed language can grow into your project. If you have an idea, a well-designed 
+language will have a way to help you achieve that vision, while a 
 poorly-designed language forces you to significantly change your idea to adapt to what the
-language can accomplish. Additionally, a well designed language always has a large,
-helpful community. This article discusses the Python community, which while rather
-large will encourage a "Just read the source" mentality over documentation.
-[http://cryto.net/~joepie91/blog/2013/02/19/the-python-documentation-is-bad-and-you-should-feel-bad/]
-Although Python can grow, its user base encourages poor practices, specifically documentation.
-With these users controlling the online feedback to Python, we cannot expect Python
-to grow into an easy-to-read and easy-to-learn language, which are signs of a
-well-designed language.
+language can accomplish. One thing we disagree on is whether a well-designed language must 
+always have a large, helpful community. Sam thinks that such a community can help languages 
+grow since they should please the users. But Tiffany thinks that a large community only 
+reflects how widespread a language is. For example, JavaScript has a large community, but 
+many people claim it is poorly designed. 
+
+On the other hand, the community can be an indicator of how well or poorly designed a language is. 
+Tiffany found an article named ["The Python documentation is bad, and you should feel bad"](http://cryto.net/~joepie91/blog/2013/02/19/the-python-documentation-is-bad-and-you-should-feel-bad/). 
+According to the article, while the Python community is rather large, it does encourage a 
+"Just read the source" mentality over meaningful documentation (and the author continues on  
+saying how bad Python's documentation is). Although Python can grow, its user base encourages 
+poor practices, especially telling people to look at poor documentation instead of helping them 
+with their specific problems. With these users controlling the online feedback to Python, 
+we cannot expect Python to grow into an easy-to-read, easy-to-learn, and well-documented language, 
+which are signs of a good language design.
 
 ---
 
@@ -125,6 +133,11 @@ quick feedback. In this way, a blog post is the best medium to help the API desi
 process because it allows for a large user base to give feedback, hopefully
 leading to improvements in the API.
 
+This particular example also emphasizes how there might not be a correct answer to some 
+problems. Clearly there are many differing views in the comments, and even the final result 
+might not "feel right" to some users. But at least there is some documentation explaining why 
+someone would name the greyscale in a particular way.
+
 ---
 
 **Question**
@@ -137,10 +150,10 @@ DSLs develop their own hierarchy because of the wide range of uses for DSLs, in
 some ways even more pronounced than the hierarchy in general-purpose languages
 discussed in Yang and Rabkin. Some DSLs are made for people who have limited or
 no programming experience. It's easy to stereotype these languages as easier and
-less of programming languages than some more intense DSLs that may require 
-knowing more programming. This develops a hierarchy amongst DSLs, where the languages
-that require more programming knowledge are considered objectively better
-than those that are made for artists, web developers, and other less technical creators.
+lesser programming languages than some more intense DSLs that are difficult to learn 
+without extensive programming experience. This develops a hierarchy amongst DSLs, 
+where the languages that require more programming knowledge are considered objectively 
+better than those that are made for artists, web developers, and other less technical users.
 Instead of choosing the best language for a project, programmers may be attached
 to a DSL.
 
@@ -188,7 +201,7 @@ especially for a language as widespread as English.
 Additionally, one word can mean different things in different contexts. For
 example, in England, a rubber is an eraser while, in American slang, a rubber
 is a condom. This leads to confusion between humans who speak the same language,
-so it is impossible to expect an artificial machine to understand the nuances.
+so it is extremely difficult to expect an artificial machine to understand the nuances.
 
 On the other hand, Pavlus' article explains the problems with too many
 technical terms. He mentions the steep learning curve involved with Perl and
@@ -213,6 +226,8 @@ We read all the articles separately and came together to write the responses.
 Both of us talked about our ideas before writing each response. Sam typed up
 the responses, while Tiffany focused on the wording of responses and the big
 picture ideas we wanted to get across.
+
+Tiffany also proofreaded and added to some responses on her own.
 
 
 ---
